@@ -1,6 +1,0 @@
-{
-  "ToxEnv": {
-    "name": "py37-ansible210",
-    "type": "VirtualEnvRunner"
-  }
-}

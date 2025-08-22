@@ -58,7 +58,7 @@
 
 2
 
-<img src = "img/hw_1_3.jpg" width = 100%>
+<img src = "img/hw_1_2.jpg" width = 100%>
 
 
 
