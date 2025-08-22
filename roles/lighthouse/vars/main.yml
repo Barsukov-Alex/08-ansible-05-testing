@@ -1,0 +1,12 @@
+---
+# vars file for lighthouse
+
+lighthouse_code_src: "https://github.com/VKCOM/lighthouse.git"
+lighthouse_code_src_version: d701335
+lighthouse_data_dir: "/usr/share/nginx/html/lighthouse/"
+lighthouse_packages:
+  - nginx
+  - git
+
+lighthouse_nginx_port: 8080
+lighthouse_nginx_conf: "lighthouse.conf"

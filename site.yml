@@ -1,0 +1,23 @@
+---
+- name: Install Clickhouse
+  hosts: clickhouse
+  remote_user: centos
+  gather_facts: false
+  roles:
+    - clickhouse
+    tags: clickhouse
+
+- name: Install Vector
+  hosts: vector
+  gather_facts: false
+  remote_user: centos
+  roles:
+    - vector
+  tags: vector
+
+ - name: Install Lighthouse
+  hosts: lighthouse
+  gather_facts: false
+  roles:
+    - lighthouse
+  tags: lighthouse
