@@ -874,6 +874,5 @@ deps =
 commands =
     {posargs:molecule test -s tox --destroy always}  
 ```
-![task-5-1]
 
 <img src = "img/hw_1_3.jpg" width = 100%>
